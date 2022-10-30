@@ -1,0 +1,29 @@
+.container-div{
+    padding-top: 130px;
+}
+.inputs_div{
+    display: none;
+}
+.blue-btn{
+   position: relative;
+   left: 617px;
+   top: 100px;
+}
+.dont-show{
+    position: relative;
+    left: 630px;
+    top: 100px;
+}
+.grey-button{
+    position: relative;
+    left: 230px;
+    top: 100px;
+}
+.close-inputs{
+    position: relative;
+    right: 21px;
+    top: 100px;
+}
+.buttonss{
+    position: relative;
+}

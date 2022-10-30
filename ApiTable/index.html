@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+   <div class="buttonss">
+    <button id="Show_persons" type="button" class="btn btn-info blue-btn">Show persons</button>
+    
+    <button id="close_all" type="button" class="btn btn-dark dont-show">Close persons</button>
+
+    <button id="addinputs" type="button" class="btn btn-secondary grey-button">Show inputs</button>
+
+    <button id="close_inputs" type="button" class="btn btn-outline-danger close-inputs">Close inputs</button>
+   </div>
+    
+
+    <div class="container container-div">
+
+
+        <div class="inputs_div">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control Name" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Fullname</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control Username" id="floatingPassword" placeholder="text">
+                <label for="floatingPassword">Username</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control Email" id="floatingPassword" placeholder="E-mail">
+                <label for="floatingPassword">email</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="number" class="form-control Phone" id="floatingPassword" placeholder="text">
+                <label for="floatingPassword">phone</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control Website" id="floatingPassword" placeholder="text">
+                <label for="floatingPassword">website</label>
+            </div>
+            <button id="addNewPerson" type="button" class="btn btn-primary">Add new person</button>
+        </div>
+       
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Username</th>
+        <th scope="col">email</th>
+        <th scope="col">phone</th>
+        <th scope="col">website</th>
+      </tr>
+    </thead>
+    <tbody class="body">
+
+      <tr class="table-dark">
+        <th scope="row">Tony Stark</th>
+        <td>Iron-Man</td>
+        <td>WARRIORRULES68@rhodey.net</td>
+        <td>M-48-49-50</td>
+        <td>Avengers.com</td>
+        <td>
+            <button onclick="" id="edit" type="button" class="btn btn-success">Edit</button>
+            <button onclick="(parentElement.parentElement.remove())" id="remove" type="button" class="btn btn-danger">Remove</button>
+        </td>
+      </tr> 
+
+    </tbody>
+  </table>
+    </div>
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
